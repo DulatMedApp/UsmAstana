@@ -1,7 +1,7 @@
 // main.go
 package main
 
-import "usmcallcenter/main/app/routers"
+import "github.com/DulatMedApp/UsmAstana/backend/cmd/routers"
 
 func main() {
 	r := routers.SetupRouter()
